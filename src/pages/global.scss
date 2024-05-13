@@ -1,0 +1,91 @@
+.movieInfoPanelItem{
+    width: 100%;
+    height: 350px;
+    margin: 20px;
+    color: #CCC;
+    position: relative;
+  }
+.movieInfoPanelItem .movieInfoPanel{
+    color: black;
+    padding: 20px;
+}
+
+.movieInfoPanelItem img{
+    width: 300px;
+    height: 100%;
+}
+
+.movieForm-Btn {
+    text-align: right;
+}
+
+.deleteMovie-Btn {
+    text-align: right;
+}
+
+.movieForm-Btn button[type="button"]{
+    margin-right: 10px;
+}
+
+.errorMsg{
+    color: red;
+}
+
+.movieTile:hover {
+    border: 2px red solid;
+    background-color: yellow;
+}
+
+.item {
+    width: 200px;
+    margin: 20px;
+    position: relative;
+}
+
+.item .card-img-top {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.item .genere {
+    color: #494242;
+}
+
+.item .year {
+    border: 1px solid #CCC;
+    padding: 0px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    ;
+}
+
+.item .btn-more {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.popup {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 80px;
+    height: 36px;
+}
+
+.searchBar {
+    height: 30px;
+    width: 300px;
+}

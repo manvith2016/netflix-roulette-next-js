@@ -1,0 +1,33 @@
+.movieTile:hover {
+    border: 2px red solid;
+    background-color: yellow;
+}
+
+.item {
+    width: 200px;
+    margin: 20px;
+    position: relative;
+}
+
+.item .card-img-top {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.item .genere {
+    color: #494242;
+}
+
+.item .year {
+    border: 1px solid #CCC;
+    padding: 0px 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    ;
+}
+
+.item .btn-more {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}

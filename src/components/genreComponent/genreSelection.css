@@ -1,0 +1,15 @@
+.genre-list {
+    display: flex;
+}
+
+.genre-list button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    color: white;
+}
+
+.genre-list button.selected-genre {
+    background-color: lightblue;
+}
