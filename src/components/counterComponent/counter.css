@@ -1,0 +1,8 @@
+.counter {
+    height: 100px;
+    width: 100px;
+}
+
+.up-counter path, .down-counter path{
+    height: 100px;
+}

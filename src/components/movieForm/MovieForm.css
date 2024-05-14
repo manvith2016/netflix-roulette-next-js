@@ -1,0 +1,12 @@
+.movieForm-Btn {
+    text-align: right;
+}
+.deleteMovie-Btn {
+    text-align: right;
+}
+.movieForm-Btn button[type="button"]{
+    margin-right: 10px;
+}
+.errorMsg{
+    color: red;
+}
